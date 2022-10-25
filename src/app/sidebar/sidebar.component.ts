@@ -11,7 +11,7 @@ export class SidebarComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  
+
   restart() {
     console.log("you restarted the game")
       // wumpusWorld = new World(roomsPerRow);

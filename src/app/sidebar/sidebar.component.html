@@ -5,33 +5,21 @@
       <div class="each-info">
         <img src="assets/img/puntos.png" width="20px"/>
         <span>Puntos</span>:
-        <span>0</span>
+        <span id="score">0</span>
       </div>
       <div class="each-info">
         <img src="assets/img/flecha.svg" width="20px"/>
         <span>Flechas</span>:
-        <span>0</span>
+        <span id="arrow">0</span>
       </div>
       <div class="each-info">
         <img src="assets/img/oro.png" width="20px"/>
         <span>Oro restante</span>:
-        <span>5</span>
+        <span id="gold">5</span>
       </div>
     </div>
     <div class="second-line">
-      <span class="title-text">Configuración</span>
-      <form >
-        <div class="form-check">
-          <input class="form-check-input" type="checkbox" value="true" id="btn-remove-walls">
-          <label class="form-check-label" for="btn-remove-walls"> Remover paredes</label>
-        </div>
-        <div class="form-group">
-          <label class="form-label" for="btn-volume">Volumen</label>
-          <br>
-          <input type="range" min="0" max="100" value="10" class="form-control-range" id="btn-volume">
-        </div>
-      </form>
-      <button (click)="restart()">
+      <button class="restart-sidebar">
         Volver a empezar
       </button>
     </div>
