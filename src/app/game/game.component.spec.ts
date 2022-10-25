@@ -17,9 +17,12 @@ describe('GameComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+  it('debe tener una función para empezar el juego', () => {
+    expect(component.empezarJuego).toBeTruthy()
+  })
+  // it('should create', () => {
+  //   expect(component).toBeTruthy();
+  // });
 
 
 });

@@ -25,7 +25,8 @@
     "types": [
       "jest",
       "jquery"
-    ]
+    ],
+    "esModuleInterop": true
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

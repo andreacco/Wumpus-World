@@ -15,7 +15,6 @@ export class GameComponent implements OnInit {
   }
 
   empezarJuego(){
-    console.log("empieza el juego");
     this.funcionalidadDelJuego.jugar()
   }
 

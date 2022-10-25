@@ -10,15 +10,12 @@ import { GameEnvService } from './game-env.service';
 @NgModule({
   declarations: [
     AppComponent,
-    // NavbarComponent,
-    // SidebarComponent,
-    // GameComponent
-  ],
-  imports: [
-    BrowserModule,
     NavbarComponent,
     SidebarComponent,
     GameComponent
+  ],
+  imports: [
+    BrowserModule
   ],
   providers: [GameEnvService],
   bootstrap: [AppComponent]

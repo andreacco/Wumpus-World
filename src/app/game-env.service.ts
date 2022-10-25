@@ -814,7 +814,6 @@ export class GameEnvService {
     }
 
     function draw() {
-      // Wipe the canvas clean
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       if (env) {
@@ -846,7 +845,6 @@ export class GameEnvService {
     $(function () {
       console.log('Welcome to Wumpus World Simulator');
 
-      // Declare the canvas and rendering context
       canvas = document.getElementById('canvas');
       ctx = canvas.getContext('2d');
       keys = new (Keys as any)();
