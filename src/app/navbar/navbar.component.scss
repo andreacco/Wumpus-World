@@ -8,7 +8,11 @@ div {
     font-size: 25px;
     font-weight: bolder;
   }
-  p {
+  p, a {
     font-size: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
   }
 }

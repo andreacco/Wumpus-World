@@ -12,15 +12,4 @@ export class SidebarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  restart() {
-    console.log("you restarted the game")
-      // wumpusWorld = new World(roomsPerRow);
-      // flies_sound.stop();
-      // wind_sound.forEach(sound => {
-      //     sound.stop();
-      // });
-      // victory_sound.stop();
-      // defeat_sound.stop();
-  }
-
 }
