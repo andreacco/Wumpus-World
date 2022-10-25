@@ -1,6 +1,6 @@
 <h1>WumpusWorld</h1>
 
-<p>This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.</p>
+<p>Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.</p>
 
 <h2>Para poder visualizar este proyecto:</h2>
 <p>1. Clona este repositorio en tu PC</p>
