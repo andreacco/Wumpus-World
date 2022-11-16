@@ -1,3 +1,10 @@
 .game-container {
   width: 70vw;
+  .no-show{
+    display: none;
+  }
+  .show{
+    display: flex;
+    position: relative;
+  }
 }

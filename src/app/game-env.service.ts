@@ -732,8 +732,17 @@ export class GameEnvService {
 
       player = new (Player as any)(env, 0, 0);
 
-      ($('#modal-win') as any).modal('hide');
-      ($('#modal-game-over') as any).modal('hide');
+      // ($('#modal-win') as any).modal('hide')
+
+      let modalWin = document.getElementById('modal-win')
+      modalWin!.className = "no-show";
+
+      let modal = document.getElementById('modal-game-over')
+      modal!.className = "no-show";
+
+      // let modal = ($('#modal-game-over') as any)
+      // modal.className = "show";
+      // .classList.replace("no-show", "show");;
 
       resources.stop('game-over');
       resources.stop('win');
@@ -802,13 +811,16 @@ export class GameEnvService {
     }
 
     function displayGameOver() {
-      ($('#modal-game-over') as any).modal('show');
+      let modal = document.getElementById('modal-game-over')
+      modal!.className = "show";
+      // ($('#modal-game-over') as any).modal('show');
       resources.play('game-over', false);
       resources.stop('fondo');
     }
 
     function displayCongratulations() {
-      ($('#modal-win') as any).modal('show');
+      let modalWin = document.getElementById('modal-win')
+      modalWin!.className = "show";
       resources.play('win', false);
       resources.stop('fondo');
     }
